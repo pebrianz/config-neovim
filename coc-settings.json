@@ -1,0 +1,18 @@
+{ 	
+	"coc.preferences.formatOnSaveFiletypes": [ 
+	  "css",
+		"html",
+		"markdown",
+		"javascript",
+		"typescript",
+		"javascriptreact",
+		"typescriptreact"
+	],
+	"html.filetypes": [
+		"html",
+		"handlebars",
+		"htmldjango",
+		"blade",
+		"ejs"
+	]
+}
