@@ -87,7 +87,7 @@ nnoremap <c-n> :call OpenTerminal()<CR>
 " else use regular :Files
 nnoremap <expr> <C-p> (len(system('git rev-parse')) ? ':Files' : ':GFiles --exclude-standard --others --cached')."\<cr>"
 
-"nnoremap <C-p> :FZF<CR>
+nnoremap <C-p> :FZF<CR>
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
   \ 'ctrl-s': 'split',
